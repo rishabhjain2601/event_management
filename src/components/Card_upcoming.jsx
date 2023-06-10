@@ -1,5 +1,5 @@
 import React from 'react'
-import './card.css'
+import './card_upcoming.css'
 
 const slides = [
     {
@@ -58,17 +58,17 @@ const slides = [
     },
 ];
 
-function Card(props) {
+function Card_upcoming(props) {
     return (
         <div>
             <div className="card">
-                <img src={slides.at(props.index).image} alt="Denim Jeans" /><br/>
+                <div><img src={slides.at(props.index).image} alt="Denim Jeans" /></div>
                     {/* {/* {slides.at(1).title} */}
-                    <p>{slides.at(props.index).description}</p>
-                    <p><button>Register</button></p>
+                    {/* <p>{slides.at(props.index).description}</p> */}
+                    <button>Register</button>
             </div>
         </div>
     )
 }
 
-export default Card
+export default Card_upcoming

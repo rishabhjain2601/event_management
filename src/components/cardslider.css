@@ -4,4 +4,10 @@ h1{
     background-color: white;
     border-radius: 30px;
     padding: 0px 5px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+ul{
+    width: 100vw;
 }
