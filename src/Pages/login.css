@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+}
+
+.loginpage{
+    display: flex;
+    height: 300px;
+    width: 1000px;
+}
+
+.loginbox {
+  height: 600px;
+  width: 600px;
+  margin-top: 6%;
+  margin-left: 4%;
+  margin-right: auto;
+  align-items: center;
+}
+
+.loginbox h1 {
+  color: black;
+  width: 60%;
+  margin: auto;
+  font-size: 40px;
+}
+
+.loginform {
+  padding-top: 150px;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.formtype{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+input {
+  background-color: rgb(208, 208, 208);
+  padding: 10px;
+  border: none;
+  width: 50%;
+  border-radius: 5px;
+}
+
+input[type="button"] {
+  background-color: rgb(208, 208, 208);
+  color: rgb(0, 0, 0);
+  width: auto;
+  font-size: medium;
+  font-weight: 900;
+  font-family: sans-serif;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+.loginform a{
+    text-decoration: none;
+    color: rgb(27, 114, 253);
+}
+
+.loginform a:hover{
+    text-decoration: none;
+    color: rgb(6, 194, 251);
+}
+
+.cards{
+    width: 1000px;
+    height: 770px;
+    overflow: hidden;
+    float: left;
+    margin-right: -500px;
+}
+
+.card1{
+    height: 1000px;
+    width: 1000px;
+    margin-right: -290px;
+    margin-top: -150px;
+    border-radius: 15px;
+    background-color: rgb(109, 3, 202);
+    transform: rotateZ(45deg);
+    float: right;
+}

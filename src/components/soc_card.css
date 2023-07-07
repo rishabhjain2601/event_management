@@ -5,14 +5,14 @@
 * {
   box-sizing: border-box;
 }
-body {
+/* body {
   width: 100vw;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #191c29;
-}
+} */
 .soc_card {
   width: var(--card-width);
   height: var(--card-height);

@@ -6,7 +6,7 @@ import Cardslider from '../components/Cardslider'
 const Home = () => {
   return (
     <div>
-      <Soc_card/>
+      
     </div>
   )
 }
