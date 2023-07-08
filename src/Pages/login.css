@@ -2,10 +2,11 @@ body {
   background-color: white;
 }
 
-.loginpage{
-    display: flex;
-    height: 300px;
-    width: 1000px;
+.loginpage {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
 
 .loginbox {
@@ -31,10 +32,10 @@ body {
   text-align: center;
 }
 
-.formtype{
-    color: black;
-    font-size: 35px;
-    margin-bottom: 50px;
+.formtype {
+  color: black;
+  font-size: 35px;
+  margin-bottom: 50px;
 }
 
 input {
@@ -58,31 +59,76 @@ input[type="button"] {
   cursor: pointer;
 }
 
-.loginform a{
-    text-decoration: none;
-    color: rgb(27, 114, 253);
+.loginform a {
+  text-decoration: none;
+  color: rgb(27, 114, 253);
 }
 
-.loginform a:hover{
-    text-decoration: none;
-    color: rgb(6, 194, 251);
+.loginform a:hover {
+  text-decoration: none;
+  color: rgb(6, 194, 251);
 }
 
-.cards{
-    width: 1000px;
-    height: 770px;
-    overflow: hidden;
-    float: left;
-    margin-right: -500px;
+.cards {
+  width: 1000px;
+  height: 1000px;
+  overflow: hidden;
+  /* float: left; */
+  /* margin-right: -500px; */
+  margin-top: -160px;
 }
 
-.card1{
-    height: 1000px;
-    width: 1000px;
-    margin-right: -290px;
-    margin-top: -150px;
-    border-radius: 15px;
-    background-color: rgb(109, 3, 202);
-    transform: rotateZ(45deg);
-    float: right;
+.card1 {
+  height: 100%;
+  width: 100%;
+  margin-left: 25%;
+  /* margin-top: -150px; */
+  border-radius: 15px;
+  background-color: rgb(104 154 255);
+  /* transform: rotate(45deg); */
+  rotate: 45deg;
+  /* float: right; */
+  position: relative;
+  z-index: 1;
+}
+
+.card1:hover {
+  box-shadow: 12px 12px 35px rgba(156, 156, 156, 0.701);
+  transform: scale(1.001);
+}
+
+.card2 {
+  height: 100%;
+  width: 100%;
+  margin-left: 30%;
+  position: relative;
+  margin-top: -777px;
+  border-radius: 15px;
+  background-color: rgb(102 152 255 / 58%);
+  /* transform: rotate(45deg); */
+  rotate: 45deg;
+  z-index: 0.1;
+  /* float: right; */
+}
+
+.card2:hover{
+  box-shadow: 12px 12px 50px rgb(194, 194, 194);
+}
+
+.card3 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin-left: 30%;
+  margin-top: -1507px;
+  border-radius: 15px;
+  background-color: rgb(102 152 255 / 58%);
+  /* transform: rotate(45deg); */
+  rotate: 45deg;
+  z-index: 0.2;
+  /* float: right; */
+}
+
+.card3:hover {
+  box-shadow: 12px 12px 50px rgb(194, 194, 194);
 }
